@@ -21,10 +21,7 @@ var/
 node_modules
 
 # .env
-.env
-.env.dev
-.env.staging
-.env.prod
+.env.*
 
 # vscode
 .vscode
