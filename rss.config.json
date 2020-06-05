@@ -1,0 +1,10 @@
+[
+    {
+        "name": "TECHPLAY",
+        "feed_url": "https://rss.techplay.jp/event/w3c-rss-format/rss.xml",
+        "fillters": [
+            {"keyword": "オンライン", "ignore_case": false},
+            {"keyword": "online", "ignore_case": false}
+        ]
+    }
+]
