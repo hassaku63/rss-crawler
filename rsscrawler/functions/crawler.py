@@ -16,6 +16,10 @@ feed_urls = {
     'Connpass/Microservices Meetup': 'https://microservices-meetup.connpass.com/ja.atom',
     'Connpass/PyCon JP': 'https://pyconjp.connpass.com/ja.atom',
     'Connpass/Machine Learning for Beginners!': 'https://mlforbiginners.connpass.com/ja.atom',
+    'Connpass/LAPRAS': 'https://lapras.connpass.com/ja.atom',
+    'Connpass/株式会社Serverless Operations': 'https://slsops.connpass.com/ja.atom',
+    'Connpass/PyData.Tokyo': 'https://pydatatokyo.connpass.com/ja.atom',
+    'Connpass/Forkwell': 'https://forkwell.connpass.com/ja.atom'
 }
 
 
