@@ -17,7 +17,7 @@ def handler(event, context):
     response = table.query(
         IndexName=settings.RSS_TABLE_GSI,
         Select='ALL_ATTRIBUTES',
-        Limit=20,
+        Limit=10,
         KeyConditionExpression='is_notified = :isnotif and begins_with(source_rss, :srcrss)',
         ExpressionAttributeValues={
             ':isnotif': 0,
