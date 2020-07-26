@@ -19,7 +19,8 @@ feed_urls = {
     'Connpass/LAPRAS': 'https://lapras.connpass.com/ja.atom',
     'Connpass/株式会社Serverless Operations': 'https://slsops.connpass.com/ja.atom',
     'Connpass/PyData.Tokyo': 'https://pydatatokyo.connpass.com/ja.atom',
-    'Connpass/Forkwell': 'https://forkwell.connpass.com/ja.atom'
+    'Connpass/Forkwell': 'https://forkwell.connpass.com/ja.atom',
+    'Connpass/TDDBC': 'https://tddbc.connpass.com/ja.atom'
 }
 
 
