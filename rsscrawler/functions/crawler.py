@@ -22,7 +22,8 @@ feed_urls = {
     'Connpass/Forkwell': 'https://forkwell.connpass.com/ja.atom',
     'Connpass/TDDBC': 'https://tddbc.connpass.com/ja.atom',
     'Connpass/Kubernetes Meetup Novice': 'https://k8s-novice-jp.connpass.com/ja.atom',
-    'Connpass/Amplify Meetup': 'https://aws-amplify-jp.connpass.com/ja.atom'
+    'Connpass/Amplify Meetup': 'https://aws-amplify-jp.connpass.com/ja.atom',
+    'Connpass/Cloud Native Bright Future Meetup': 'https://cnbfmeetup.connpass.com/ja.atom',
 }
 
 
