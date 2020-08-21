@@ -24,6 +24,7 @@ feed_urls = {
     'Connpass/Kubernetes Meetup Novice': 'https://k8s-novice-jp.connpass.com/ja.atom',
     'Connpass/Amplify Meetup': 'https://aws-amplify-jp.connpass.com/ja.atom',
     'Connpass/Cloud Native Bright Future Meetup': 'https://cnbfmeetup.connpass.com/ja.atom',
+    'Connpass/OpenID Foundation Japan': 'https://openid.connpass.com/ja.atom'
 }
 
 
