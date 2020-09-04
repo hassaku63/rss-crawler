@@ -25,7 +25,8 @@ feed_urls = {
     'Connpass/Amplify Meetup': 'https://aws-amplify-jp.connpass.com/ja.atom',
     'Connpass/Cloud Native Bright Future Meetup': 'https://cnbfmeetup.connpass.com/ja.atom',
     'Connpass/OpenID Foundation Japan': 'https://openid.connpass.com/ja.atom',
-    'Connpass/Japan Datadog User Group': 'https://datadog-jp.connpass.com/ja.atom'
+    'Connpass/Japan Datadog User Group': 'https://datadog-jp.connpass.com/ja.atom',
+    'Connpass/aws-serverless': 'https://aws-serverless.connpass.com/ja.atom',
 }
 
 
