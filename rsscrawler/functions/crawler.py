@@ -27,6 +27,10 @@ feed_urls = {
     'Connpass/OpenID Foundation Japan': 'https://openid.connpass.com/ja.atom',
     'Connpass/Japan Datadog User Group': 'https://datadog-jp.connpass.com/ja.atom',
     'Connpass/aws-serverless': 'https://aws-serverless.connpass.com/ja.atom',
+    'Connpass/M3 Engineer': 'https://m3-engineer.connpass.com/ja.atom',
+    'Connpass/メルカリ／Mercari': 'https://mercari.connpass.com/ja.atom',
+    'Connpass/Serverless LT初心者向け': 'https://serverlesslt.connpass.com/ja.atom',
+    'Connpass/株式会社ZOZOテクノロジーズ': 'https://zozotech-inc.connpass.com/ja.atom',
 }
 
 
