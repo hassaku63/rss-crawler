@@ -32,6 +32,7 @@ feed_urls = {
     'Connpass/Serverless LT初心者向け': 'https://serverlesslt.connpass.com/ja.atom',
     'Connpass/株式会社ZOZOテクノロジーズ': 'https://zozotech-inc.connpass.com/ja.atom',
     'Connpass/Containers on AWS': 'https://aws-container.connpass.com/ja.atom',
+    'Connpass/Container Runtime Meetup': 'https://runtime.connpass.com/ja.atom',
 }
 
 
