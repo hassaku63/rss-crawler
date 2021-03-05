@@ -39,6 +39,7 @@ feed_urls = {
     'Connpass/JAWS-UG コンテナ支部': 'https://jawsug-container.connpass.com/ja.atom',
     'Connpass/AWS Front-end Community': 'https://aws-amplify-jp.connpass.com/ja.atom',
     'Connpass/技術書典' : 'https://techbookfest.connpass.com/ja.atom',
+    'Connpass/GYOMU Hackers Guild': 'https://gyomu-hackers-guild.connpass.com/ja.atom',
 }
 
 
