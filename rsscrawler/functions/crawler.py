@@ -46,6 +46,7 @@ feed_urls = {
     'Connpass/Cloud Native Developers JP': 'https://cnd.connpass.com/ja.atom',
     'Connpass/サービス開発フリートーク': 'https://sdf.connpass.com/',
     'Connpass/ラクス': 'https://rakus.connpass.com/ja.atom',
+    'Connpass/CircleCI': 'https://circleci.connpass.com/',
 }
 
 
