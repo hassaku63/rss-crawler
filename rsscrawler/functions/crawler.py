@@ -40,6 +40,12 @@ feed_urls = {
     'Connpass/AWS Front-end Community': 'https://aws-amplify-jp.connpass.com/ja.atom',
     'Connpass/技術書典' : 'https://techbookfest.connpass.com/ja.atom',
     'Connpass/GYOMU Hackers Guild': 'https://gyomu-hackers-guild.connpass.com/ja.atom',
+    'Connpass/Hatena Engineer Seminar': 'https://hatena.connpass.com/ja.atom',
+    'Connpass/ssmjp': 'https://ssmjp.connpass.com/ja.atom',
+    'Connpass/CloudNative Days': 'https://cloudnativedays.connpass.com/',
+    'Connpass/Cloud Native Developers JP': 'https://cnd.connpass.com/ja.atom',
+    'Connpass/サービス開発フリートーク': 'https://sdf.connpass.com/',
+    'Connpass/ラクス': 'https://rakus.connpass.com/ja.atom',
 }
 
 
