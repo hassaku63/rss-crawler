@@ -3,10 +3,11 @@ service: rss-crawler
 provider:
   name: aws
   runtime: python3.8
-  profile: ${opt:profile}
-  stage: ${opt:stage, dev}
+  # profile: ${env:AWS_PROFILE, 'default'}
+  stage: ${opt:stage, 'dev'}
   region: ap-northeast-1
   timeout: 30
+  lambdaHashingVersion: "20201221"
   tracing:
     apiGateway: false
     lambda: true
@@ -52,7 +53,6 @@ plugins:
   - serverless-python-requirements
   - serverless-dotenv-plugin
   - serverless-pseudo-parameters
-
 custom:
   pythonRequirements:
     usePipenv: true
