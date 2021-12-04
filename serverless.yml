@@ -9,6 +9,10 @@ provider:
   region: ap-northeast-1
   timeout: 30
   lambdaHashingVersion: "20201221"
+  tags:
+    Service: ${self:service}
+    Stage: ${self:provider.stage}
+    CommitHashSha1: ${git:sha1}
   tracing:
     apiGateway: false
     lambda: true
@@ -53,10 +57,12 @@ provider:
 plugins:
   - serverless-python-requirements
   - serverless-dotenv-plugin
+  - serverless-plugin-git-variables
 
 custom:
   pythonRequirements:
     usePipenv: true
+  exportGitVariables: false  # 環境変数への export は不要
 
 # you can add packaging information here
 package:
