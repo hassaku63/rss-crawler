@@ -46,7 +46,8 @@ feed_urls = {
     'Connpass/Cloud Native Developers JP': 'https://cnd.connpass.com/ja.atom',
     'Connpass/サービス開発フリートーク': 'https://sdf.connpass.com/',
     'Connpass/ラクス': 'https://rakus.connpass.com/ja.atom',
-    'Connpass/CircleCI': 'https://circleci.connpass.com/',
+    'Connpass/CircleCI': 'https://circleci.connpass.com/ja.atom',
+    'Connpass/検索技術勉強会': 'https://search-tech.connpass.com/ja.atom'
 }
 
 
@@ -55,7 +56,13 @@ def handler(event, context):
         log.info(url)
         feed = feedparser.parse(url)
         # log.info(json.dumps(dict(feed.feed)))
-        fdict = json.loads(json.dumps(feed))
+        fdict = {}
+        try:
+            fdict = json.loads(json.dumps(feed))
+        except Exception as e:
+            log.error(f'json format error: {name}, {url}')
+            log.error(e)
+            continue
         data = {
             'name': name,
             'feed': fdict['feed'],

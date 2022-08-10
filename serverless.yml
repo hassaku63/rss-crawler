@@ -61,6 +61,7 @@ plugins:
 
 custom:
   pythonRequirements:
+    slim: true
     usePipenv: true
   exportGitVariables: false  # 環境変数への export は不要
 
